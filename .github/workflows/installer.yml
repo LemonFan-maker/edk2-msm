@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: msm-Build
+name: msm-Build-Manual
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -20,21 +20,12 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
-      max-parallel: 8
+      max-parallel: 2
       matrix:
         device:
           # sm8150
-          - mh2lm
           - nabu
-          - cepheus
-          - vayu-huaxing
           - vayu-tianma
-          # sm8250
-          - lmi
-          # sm8550
-          - fuxi
-          # sm7325
-          - lisa
 
 
     # Steps represent a sequence of tasks that will be executed as part of the job
