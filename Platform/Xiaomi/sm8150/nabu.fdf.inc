@@ -40,7 +40,7 @@ FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {
 }
 
 // Mainline device tree blob 
-// from https://github.com/map220v/sm8150-mainline/blob/nabu-5.19/arch/arm64/boot/dts/qcom/sm8150-xiaomi-nabu.dts
+// from https://github.com/map220v/sm8150-mainline/blob/nabu-6.7-working/arch/arm64/boot/dts/qcom/sm8150-xiaomi-nabu.dts
 FILE FREEFORM = 25462CDA-221F-47DF-AC1D-259CFAA4E326 {
   SECTION RAW = Platform/Xiaomi/sm8150/FdtBlob/nabu/sm8150-xiaomi-nabu.dtb
 }
